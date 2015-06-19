@@ -1,0 +1,32 @@
+{
+  "name": "newsapps-deploy",
+  "version": "1.0.0",
+  "description": "A collection of awscli-powered deploy scripts that can be easily reused.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/texastribune/newsapps-deploy.git"
+  },
+  "keywords": [
+    "aws",
+    "awscli",
+    "s3",
+    "newsapps",
+    "static"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/texastribune/newsapps-deploy/issues"
+  },
+  "homepage": "https://github.com/texastribune/newsapps-deploy#readme",
+  "bin": {
+    "newsapps-deploy": "bin/cli.js"
+  },
+  "dependencies": {
+    "shelljs": "^0.5.1",
+    "yargs": "^3.10.0"
+  }
+}

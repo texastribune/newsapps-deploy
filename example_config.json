@@ -1,0 +1,11 @@
+{
+  "deployment": {
+    "dev_s3_bucket": "notarealbucket.texastribune.org",
+    "prod_s3_bucket": "graphics.texastribune.org",
+    "path": "graphics",
+    "slug": "corgis-vs-red-pandas",
+    "aws_profile": "newsapps",
+    "dist_folder": "dist",
+    "assets_folder": "app/assets"
+  }
+}
