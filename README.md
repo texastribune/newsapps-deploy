@@ -93,6 +93,6 @@ The assumpion is that the `.css` and `.js` are being revisioned. If `--gzip` is 
 
 ## Wait – this depends on a Python library?
 
-There is a [library for AWS written in node.js called `aws-sdk`](http://aws.amazon.com/sdk-for-node-js/). However, multiple parts of our workflow already generous depend on [awscli](http://aws.amazon.com/cli/) &mdash; to the point it can be assumed that it's already installed and configured.
+There is a [library for AWS written in node.js called `aws-sdk`](http://aws.amazon.com/sdk-for-node-js/). However, multiple parts of our workflow already generously depend on [awscli](http://aws.amazon.com/cli/) &mdash; to the point it can be assumed that it's already installed and configured.
 
 Also &mdash; `aws-sdk` has no command line interface built in. Any tasks we need to accomplish would have to be written ourselves. Why reinvent the wheel? ¯\_(ツ)_/¯
